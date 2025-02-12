@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/b330d70a-29cf-48d3-8430-172994039bb1
 ## Modifiers
 
 ### Emission
-Emission is a modifier to put on any object to give it an emission.
+Emission is a modifier to put on any object to give it a solid color that isn't affected by lights.
 
 The main difference from using a material is that parameters are specified per object.
 It also has more features than a material, such as having transparency and a quick visibility toggle (easier to use than hiding from the viewport since the object stays selected).
