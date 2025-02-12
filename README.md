@@ -28,10 +28,15 @@ It has 5 parameters:
 6. `Shadeless`: whether the object casts shadows or not.
    _Default: `True`_
 
+#### Example
 | Viewport | Modifier |
 |---|---|
 | <img src="https://github.com/user-attachments/assets/ce891b9d-e5c9-403b-89e8-2b8f227bb9d5" height=200> | <img src="https://github.com/user-attachments/assets/4d827fea-3681-4d2c-9e03-6367acba00f2"> |
 
+> [!NOTE]
+> Objects don't glow by default. The one in the example does because:
+> 1. Its Emission strength is above `1.0`.
+> 2. There is a `Glare` node in the compositor set to `Bloom`, and viewport compositing is turned on.
 
 
 ### Echo
@@ -46,6 +51,7 @@ It has 2 parameters:
 3. `LOD`: controls the smoothness of the trail. A higher `LOD` will make the trail more smooth but can impact performance.
    _Default value: `10`_
 
+#### Example
 | Viewport | Modifier |
 |---|---|
 | <img src="https://github.com/user-attachments/assets/34ab884c-bb13-4d95-a9be-270ce74dc780" height=200> | <img src="https://github.com/user-attachments/assets/a2d2a838-950e-4483-966a-8c85c85f97d5"> |
@@ -67,6 +73,7 @@ It has 2 parameters:
 3. `Rate`: how much the property will change depending on age.
    _Default: `-0.1`_
 
+#### Example
 | Viewport | Modifier |
 |---|---|
 | <img src="https://github.com/user-attachments/assets/0b7e4a07-5f3f-4ff5-b141-2e2c187f9c98" height=200> | <img src="https://github.com/user-attachments/assets/bf7f20c5-9da3-4a8e-b6fd-6b04450d2f1d"> |
