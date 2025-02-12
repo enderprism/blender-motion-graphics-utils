@@ -1,6 +1,8 @@
 # Motion Graphics Utils
 An asset library containing useful modifiers for motion graphics.
 
+[Take me to downloads](https://github.com/enderprism/blender-motion-graphics-utils/releases/latest)
+
 https://github.com/user-attachments/assets/b330d70a-29cf-48d3-8430-172994039bb1
 
 
