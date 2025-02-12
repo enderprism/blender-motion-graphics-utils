@@ -1,7 +1,9 @@
 # Motion Graphics Utils
 An asset library containing useful modifiers for motion graphics.
 
-[Take me to downloads](https://github.com/enderprism/blender-motion-graphics-utils/releases/latest)
+It has a companion addon to add a keying set for the Emission modifier.
+
+[Take me to downloads!](https://github.com/enderprism/blender-motion-graphics-utils/releases/latest)
 
 https://github.com/user-attachments/assets/b330d70a-29cf-48d3-8430-172994039bb1
 
@@ -71,3 +73,11 @@ It has 2 parameters:
 
 > [!NOTE]
 > You can only decay a single property within the modifier, but the modifier can be applied multiple times on the same object with different properties.
+
+
+## Companion Addon
+
+**Emission Keying Set** does what its name implies: add a keying set for the Emission modifier.
+It is compatible with Blender 4.2 and onwards.
+
+You can [download it in the releases](https://github.com/enderprism/blender-motion-graphics-utils/releases/latest) along with the asset library containing the modifiers.
