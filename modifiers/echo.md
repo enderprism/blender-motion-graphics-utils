@@ -15,9 +15,9 @@ It has 2 parameters:
 
 ### Example
 
-| Viewport                                        | Modifier                             |
-| ----------------------------------------------- | ------------------------------------ |
-| <img src="assets/echo-viewport.png" height=200> | <img src="assets/echo-modifier.png"> |
+| Viewport                                         | Modifier                              |
+| ------------------------------------------------ | ------------------------------------- |
+| <img src="/assets/echo-viewport.png" height=200> | <img src="/assets/echo-modifier.png"> |
 
 > [!WARNING]
 > Since Echo will save properties of Emission, and simulation zones are cached, you will not see the effects of changing Emission properties unless clearing the cache (by going back to frame 0).

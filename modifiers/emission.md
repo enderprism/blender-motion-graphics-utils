@@ -20,9 +20,9 @@ It has 5 parameters:
 
 ### Example
 
-| Viewport                                            | Modifier                                 |
-| --------------------------------------------------- | ---------------------------------------- |
-| <img src="assets/emission-viewport.png" height=200> | <img src="assets/emission-viewport.png"> |
+| Viewport                                             | Modifier                                  |
+| ---------------------------------------------------- | ----------------------------------------- |
+| <img src="/assets/emission-viewport.png" height=200> | <img src="/assets/emission-viewport.png"> |
 
 > [!NOTE]
 > Objects don't glow by default. The one in the example does because:

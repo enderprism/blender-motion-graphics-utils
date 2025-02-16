@@ -11,9 +11,9 @@ It has 2 parameters:
 
 ### Example
 
-| Viewport                                                  | Modifier                                       |
-| --------------------------------------------------------- | ---------------------------------------------- |
-| <img src="assets/emission-decay-viewport.png" height=200> | <img src="assets/emission-decay-modifier.png"> |
+| Viewport                                                   | Modifier                                        |
+| ---------------------------------------------------------- | ----------------------------------------------- |
+| <img src="/assets/emission-decay-viewport.png" height=200> | <img src="/assets/emission-decay-modifier.png"> |
 
 > [!NOTE]
 > You can only decay a single property within the modifier, but the modifier can be applied multiple times on the same object with different properties.

@@ -13,6 +13,6 @@ Echo Transform works by applying transformations on the object in geometry nodes
 
 ### Example
 
-| Viewport                                                  | Modifier                                       |
-| --------------------------------------------------------- | ---------------------------------------------- |
-| <img src="assets/echo-transform-viewport.png" height=200> | <img src="assets/echo-transform-modifier.png"> |
+| Viewport                                                   | Modifier                                        |
+| ---------------------------------------------------------- | ----------------------------------------------- |
+| <img src="/assets/echo-transform-viewport.png" height=200> | <img src="/assets/echo-transform-modifier.png"> |
