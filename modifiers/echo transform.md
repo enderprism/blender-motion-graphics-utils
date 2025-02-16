@@ -8,7 +8,7 @@ Echo Transform works by applying transformations on the object in geometry nodes
 
 [Echo](/modifiers/echo.md) can then retrieve this accurate rotation data along with the rest of the transformation and work accordingly.
 
-> [!INFO]
+> [!NOTE]
 > When changing an object's location through Echo Transform, its origin will not move with it. To other objects, it will be as if the affected object had never been transformed. **If you intend on parenting objects to one with Echo Transform, make sure to also change the object's regular transform.**
 
 ### Example
