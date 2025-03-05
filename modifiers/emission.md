@@ -22,7 +22,7 @@ It has 5 parameters:
 
 | Viewport                                             | Modifier                                  |
 | ---------------------------------------------------- | ----------------------------------------- |
-| <img src="/assets/emission-viewport.png" height=200> | <img src="/assets/emission-viewport.png"> |
+| <img src="/assets/emission-viewport.png" height=200> | <img src="/assets/emission-modifier.png"> |
 
 > [!NOTE]
 > Objects don't glow by default. The one in the example does because:
