@@ -6,7 +6,7 @@ It has a companion addon to add a keying set for the Emission modifier.
 
 ### [Take me to downloads!](https://github.com/enderprism/blender-motion-graphics-utils/releases/latest)
 
-https://github.com/user-attachments/assets/b330d70a-29cf-48d3-8430-172994039bb1
+https://github.com/user-attachments/assets/eb49ac8b-244a-4e47-a4ce-fcf568dbb105
 
 ## Modifiers
 
