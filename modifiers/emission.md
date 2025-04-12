@@ -5,7 +5,7 @@ Emission is a modifier to put on any object to give it a solid color that isn't 
 The main difference from using a material is that parameters are specified per object.
 It also has more features than a material, such as having transparency and a quick visibility toggle (easier to use than hiding from the viewport since the object stays selected).
 
-It has 5 parameters:
+It has 7 parameters:
 
 1. `Color`: the color of the object.
    _Default: white_
@@ -17,6 +17,11 @@ It has 5 parameters:
    _Default: `True`_
 5. `Shadeless`: whether the object casts shadows or not.
    _Default: `True`_
+6. **Modifier stack**: The following properties need to be set before any Echo bake.
+   1. `As Instance`: whether to turn the object into an instance. Use with Echo with `Realize Instances` disabled.
+      _Default: `True`_
+   2. `Echo`: enables compatibility with Echo when `As Instance` is enabled. Enabling it without an Echo after it will make the object invisible (this is hacky, I haven't found a way to detect Echo modifiers after Emission in the modifier stack).
+      _Default: `False`_
 
 ### Example
 

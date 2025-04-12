@@ -5,13 +5,16 @@ It is framerate dependent as it's based on a simulation zone. Default values are
 
 Echo saves the object's position, rotation, and scale over time, as well as its Emission property if that modifier is present (must be placed before Echo).
 
-It has 2 parameters:
+It has 3 parameters:
 
 1. `Lifetime`: controls how long the motion trail is.
    _Default value: `2`_
-2. `Subdivisions`: controls the smoothness of the trail. Higher `Subdivisions` will make the trail more smooth but can impact performance.
+2. `Step`: controls the frame step between each sample (disabled with `Subdivisions` higher than 0)
+3. `Subdivisions`: controls the smoothness of the trail. Higher `Subdivisions` will make the trail more smooth but can impact performance when using realized instances.
    _Default value: `3`_
-   _This property is split into 2 parameters, `Preview` and `Render`, to be able to achieve higher detail without impacting viewport performance._
+   _This property is split into 2 parameters, `Preview` and `Render`, to be able to achieve higher detail without impacting viewport performance when using realized instances._
+4. `Realize Instances`: turn object instances making up the motion trail into real geometry.
+   _Default value: `False`_
 
 ### Example
 
