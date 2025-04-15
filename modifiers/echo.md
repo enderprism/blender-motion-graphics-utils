@@ -3,7 +3,7 @@
 Echo is a modifier to put on any object to give it a motion trail, remade from AE's effect with the same name (often used by [stcubing](https://stcubing.com/) in his videos).
 It is framerate dependent as it's based on a simulation zone. Default values are made to work at 60fps.
 
-Echo saves the object's position, rotation, and scale over time, as well as its Emission property if that modifier is present (must be placed before Echo).
+Echo saves the object's position, rotation, and scale over time, as well as its Emission properties if that modifier is present (must be placed before Echo).
 
 It has 3 parameters:
 
@@ -24,6 +24,6 @@ It has 3 parameters:
 
 > [!WARNING]
 > Since Echo will save properties of Emission, and simulation zones are cached, you will not see the effects of changing Emission properties unless clearing the cache (by going back to frame 0).
-> You can also work around this limitation by disabling Simulation Nodes caching in the `Physics` tab of the `Property` panel.
+> You can also work around this limitation by disabling Simulation Nodes caching or by refreshing the cache (`Calculate To Frame`) in the `Physics` tab of the `Property` panel.
 >
-> ![image](assets/echo-warning.png)
+> ![image](/assets/echo-warning.png)
