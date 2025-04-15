@@ -24,7 +24,9 @@ It has 3 parameters:
 
 > [!WARNING]
 > Since Echo will save properties of Emission, and simulation zones are cached, you will not see the effects of changing Emission properties unless clearing the cache (by going back to frame 0).
-> You can refresh the cache (`Calculate To Frame`) in the `Physics` tab of the `Property` panel.
+>
+> You can refresh the cache (`Calculate To Frame`) in the `Physics` tab of the `Property` panel. (The `Physics` tab won't be visible if the object doesn't already have Echo)
+>
 > You can also work around this limitation by disabling Simulation Nodes caching entirely.
 >
 > ![image](/assets/echo-warning.png)
